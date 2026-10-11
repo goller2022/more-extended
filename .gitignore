@@ -1,3 +1,5 @@
+.vscode/
+ignores/
+
 manager.py
-ai.md
-updateLog.md
+*.log
