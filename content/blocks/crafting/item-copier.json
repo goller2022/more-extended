@@ -1,0 +1,34 @@
+{
+    "type": "MultiCrafter",
+    "size": 2,
+    "itemCapacity": 30,
+    "jsonRecipes": [
+        {
+            "name": "copper",
+            "input": {
+                "items": ["copper/1"]
+            },
+            "output": {
+                "items": ["copper/2"]
+            },
+            "craftTime": 60,
+            "alwaysUnlocked": true
+        },
+        {
+            "name": "lead",
+            "input": {
+                "items": ["lead/1"]
+            },
+            "output": {
+                "items": ["lead/2"]
+            },
+            "craftTime": 60,
+            "alwaysUnlocked": true
+        }
+    ],
+    "requirements": ["copper/10"],
+    "category": "crafting",
+    //"research": "ice-crafter",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

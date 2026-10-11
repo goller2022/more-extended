@@ -1,0 +1,8 @@
+{
+    "shownPlanets": { "add": ["serpulo"] },
+    "research": {
+        "add": {
+            "parent": "surge-conveyor"
+        }
+    }
+}

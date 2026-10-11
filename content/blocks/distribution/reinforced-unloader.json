@@ -1,0 +1,9 @@
+{
+    "type": "Unloader",
+    "speed": 6,
+    "requirements": ["silicon/30", "tungsten/20"],
+    "category": "distribution",
+    "research": "duct-unloader",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

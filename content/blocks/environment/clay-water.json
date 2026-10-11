@@ -1,0 +1,12 @@
+{
+    "type": "ShallowLiquid",
+    "speedMultiplier": 0.75,
+    "statusDuration": 60,
+    "albedo": 0.9,
+    "supportsOverlay": true,
+    "mapColor": "#b0bac0",
+    "itemDrop": "clay",
+    "playerUnmineable": true
+    //"floorBase": "clay-floor",
+    //"liquidBase": "water"
+}

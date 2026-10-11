@@ -1,0 +1,11 @@
+{
+    "type": "SolarGenerator",
+    "health": 40,
+    "size": 3,
+    "powerProduction": 3.2,
+    "requirements": ["graphite/60", "silicon/70", "phase-fabric/15"],
+    "category": "power",
+    "research": "hot-solar-panel",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

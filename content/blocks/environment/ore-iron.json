@@ -1,0 +1,10 @@
+{
+    "type": "OreBlock",
+    //"name": "铁矿脉",
+    //"description": "铁矿脉。",
+    "itemDrop": "iron",
+    "mapColor": "#dddddd",
+    "oreDefault": true,
+    "oreThreshold": 0.7,
+    "oreScale": 28
+}

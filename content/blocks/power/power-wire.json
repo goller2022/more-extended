@@ -1,0 +1,16 @@
+{
+    "type": "PowerBlock",
+    "size": 1,
+    "outputRouter": false,
+    "hasPower": true,
+    "consumesPower": false,
+    "conductivePower": true,
+    "solid": false,
+    "underBullets": true,
+    "crushFragile": true,
+    "requirements": ["copper/1", "lead/1"],
+    "category": "power",
+    "research": "power-node",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "health": 500,
+    "size": 1,
+    "requirements": [{ "item": "gold", "amount": 6 }],
+    "category": "defense",
+    "research": "iron-wall",
+    "absorbLasers": true,
+    "chanceDeflect": 0,
+    "researchCostMultiplier": 1,
+    "canOverdrive": false
+}

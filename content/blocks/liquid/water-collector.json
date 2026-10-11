@@ -1,0 +1,11 @@
+{
+    "size": 1,
+    "health": 40,
+    "solid": false,
+    "underBullets": true,
+    "category": "liquid",
+    "requirements": ["metaglass/5", "lead/5"],
+    "research": "liquid-container",
+    "canOverdrive": false,
+    "researchCostMultiplier": 1
+}

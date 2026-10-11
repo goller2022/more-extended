@@ -1,0 +1,168 @@
+{
+    "generator": "SerpuloPlanetGenerator",
+    "parent": "sun",
+    //"launchCandidates": ["serpulo"],
+    "solarSystem": "sun",
+    "iconColor": "4a8bff",
+    "orbitRadius": 25,
+    "orbitTime": 10000,
+    "rotateTime": 1200,
+    //"hasAtmosphere": true,
+    //"updateLighting": true,
+    "atmosphereRadIn": 0.02,
+    "atmosphereRadOut": 0.4,
+    "atmosphereColor": "6eb4ff80",
+    //"lightColor": "8ac4ff80",
+    //"landCloudColor": "ffffff7f",
+    //"allowSelfSectorLaunch": false,
+    /*"defaultAttributes": {
+        "spores": 0.2,
+        "steam": 0,
+        "oxygen": 1
+    },*/
+    "rules": {
+        //"coreDestroyClear": true,
+        //"worldProcessorPlayerLink": true,
+        //"unitPayloadsExplode": true,
+        //"showSpawns": true,
+        "worldProcessorPlayerLink": true
+        //"logicUnitDeconstruct": true,
+        //"randomWaveAI": false,
+        //"planet": "any"
+    },
+    //"drawOrbit": true,
+    "accessible": true,
+    //"lightSrcFrom": 0,
+    //"lightSrcTo": 0.8,
+    //"lightDstFrom": 0.25,
+    //"lightDstTo": 0.85,
+    /*"research": {
+        //"parent": "planetaryTerminal"
+        //"parent": "core-shard"
+    },*/
+    "defaultCore": "core-shard",
+    "sectorSeed": 0,
+    "alwaysUnlocked": true,
+    "startSector": 170,
+    "sectorSize": 3.75,
+    "clearSectorOnLose": true,
+    //"allowSectorInvasion": false,
+    //"allowLaunchToNumbered": false,
+    "allowCampaignRules": true,
+    //"showRtsAIRule": false,
+    //"enemyCoreSpawnReplace": true,
+    //"allowLaunchSchematics": true,
+    //"allowWaveSimulation": true,
+    //"launchMusic": "game4",
+    //"allowLaunchLoadout": true,
+    //"launchCapacityMultiplier": 0.5,
+    //"tidalLock": false,
+    "prebuildBase": true,
+    "radius": 1,
+    //"bloom": true,
+    "visible": true,
+    //"minZoom": 0.001,
+    //"maxZoom": 10,
+    "cloudMesh": {
+        "type": "MultiMesh",
+        "meshes": [
+            {
+                "type": "HexSkyMesh",
+                "planet": "veridia",
+                "seed": 9,
+                "speed": 1.5,
+                "radius": 0.08,
+                "divisions": 5,
+                "color": "ffffffc0",
+                "octaves": 3,
+                "persistence": 0.45,
+                "scl": 0.8,
+                "thresh": 0.4
+            },
+            {
+                "type": "HexSkyMesh",
+                "planet": "veridia",
+                "seed": 19,
+                "speed": 0.8,
+                "radius": 0.18,
+                "divisions": 5,
+                "color": "ffffff60",
+                "octaves": 2,
+                "persistence": 0.4,
+                "scl": 0.6,
+                "thresh": 0.5
+            }
+        ]
+    },
+    "mesh": {
+        "type": "MultiMesh",
+        "meshes": [
+            {
+                "type": "NoiseMesh",
+                "planet": "veridia",
+                "seed": 204,
+                "color1": "1b4f9c",
+                "color2": "3a86c8",
+                "divisions": 6,
+                "radius": 1,
+                "octaves": 10,
+                "persistence": 0.5,
+                "scale": 1,
+                "mag": 0.5
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "veridia",
+                "seed": 3,
+                "color1": "2d6a27",
+                "color2": "6b9e3a",
+                "divisions": 6,
+                "radius": 1,
+                "octaves": 8,
+                "persistence": 0.55,
+                "scale": 0.8,
+                "mag": 0.45
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "veridia",
+                "seed": 2,
+                "color1": "b5a662",
+                "color2": "7a7254",
+                "divisions": 6,
+                "radius": 0.982,
+                "octaves": 8,
+                "persistence": 0.5,
+                "scale": 1.5,
+                "mag": 0.4
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "veridia",
+                "seed": 99,
+                "color1": "ffffff",
+                "color2": "d9e8f5",
+                "divisions": 4,
+                "radius": 0.95,
+                "octaves": 6,
+                "persistence": 0.4,
+                "scale": 0.3,
+                "mag": 0.6
+            },
+            {
+                "type": "SunMesh",
+                "planet": "veridia",
+                "speed": 996,
+                "mag": 0.8,
+                "scl": 0.01,
+                "octaves": 4,
+                "persistence": 0.5,
+                "divisions": 2,
+                "pow": 1.2,
+                "colorScale": 0.9,
+                "colors": ["ffe8a1", "fff4cc"]
+            }
+        ]
+    }
+    //"defaultEnv": 255
+}

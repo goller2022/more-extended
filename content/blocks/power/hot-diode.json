@@ -1,0 +1,13 @@
+{
+    "type": "PowerDiode",
+    //"name": "耐热二极管",
+    //"description": "单向传输电力，仅当该方向上电力储备较少时起作用。更加耐热，可以在高温高压环境下使用。",
+    "size": 1,
+    "health": 40,
+    "hasPower": true,
+    "requirements": ["graphite/10", "silicon/10", "oxide/5"],
+    "category": "power",
+    "research": "hot-power-node-large",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

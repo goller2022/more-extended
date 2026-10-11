@@ -1,0 +1,33 @@
+{
+    "type": "GenericCrafter",
+    //"name": "铁冶炼厂",
+    //"description": "把粗铁冶炼成铁。",
+    "health": 160,
+    "itemCapacity": 30,
+    "outputItem": "iron/1",
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 60,
+    "researchCostMultiplier": 1,
+    "craftEffect": "smeltsmoke",
+    "updateEffect": "smoke",
+    "consumes": {
+        "power": 1,
+        "items": ["crude-iron/1", "coal/1"]
+    },
+    "drawer": [
+        { "type": "DrawRegion", "suffix": "" },
+        {
+            "type": "DrawCrucibleFlame",
+            "midColor": "7248a8",
+            "flameColor": "472f80"
+        },
+        { "type": "DrawFade", "suffix": "-top" }
+    ],
+    "requirements": ["copper/50", "lead/30", "silicon/10"],
+    "canOverdrive": true,
+    "category": "crafting",
+    "research": "scrap-crafter"
+}

@@ -1,0 +1,42 @@
+{
+    "type": "GenericCrafter", //种类
+    //"name": "废料制造机", //名称
+    //"description": "用基础资源制作废料。", //用途
+    "health": 160, //生命值
+    "itemCapacity": 30, //容量
+    "outputItem": "scrap/2",
+    "size": 2, //尺寸
+    "hasPower": true, //是否有电力(true是，false否)
+    "hasLiquids": false, //是否有液体(true是，false否)
+    "hasItems": true, //是否有物品(true是，false否)
+    "craftTime": 60, //制造时间(单位为帧，1秒=60帧)
+    "craftEffect": "smeltsmoke",
+    "updateEffect": "smoke" /*{
+        "type": "waveEffect",
+        "lifetime": 30, //粒子生命(单位为帧，1秒=60帧)
+        "sizeFrom": 0, //尺寸限制
+        "sizeTo": 5, //大小(像素)
+        "strokeFrom": 5, //初始宽度
+        "strokeTo": 0, //宽度由内到外的变化
+        "colorFrom": "FFFF00", //开始颜色
+        "colorTo": "CBCB00" //结束颜色
+    }, //特效*/,
+    "drawer": [
+        { "type": "DrawRegion", "suffix": "" },
+        {
+            "type": "DrawCrucibleFlame",
+            "midColor": "7248a8",
+            "flameColor": "472f80"
+        },
+        { "type": "DrawFade", "suffix": "-top" }
+    ],
+    "consumes": {
+        "power": 1, //耗电量(60倍)
+        "items": ["copper/1", "lead/1"]
+    },
+    "requirements": ["copper/50", "lead/30"], //建造所需
+    "category": "crafting", //游戏类别
+    "research": "silicon-smelter", //前置
+    "canOverdrive": true, //是否超频(true是，false否)
+    "researchCostMultiplier": 1 //研究成本倍率(1=100%)
+}

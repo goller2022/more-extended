@@ -1,0 +1,10 @@
+{
+    "type": "Duct",
+    "health": 140,
+    "speed": 2,
+    "requirements": ["beryllium/3", "tungsten/2", "thorium/1"],
+    "category": "distribution",
+    "research": "armored-duct",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

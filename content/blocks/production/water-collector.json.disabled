@@ -1,0 +1,28 @@
+{
+    "type": "GenericCrafter",
+    "health": 160,
+    "outputLiquid": { "liquid": "water", "amount": 0.01 },
+    "size": 2,
+    "hasPower": false,
+    "hasLiquids": true,
+    "hasItems": false,
+    "craftTime": 1,
+    "craftEffect": "none",
+    "updateEffect": "none",
+    "drawer": [
+        { "type": "DrawDefault" },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "water",
+            "drawLiquidLight": true
+        },
+        { "type": "DrawRegion", "suffix": "-bottom" }
+    ],
+    "lightLiquid": "water",
+    "consumes": {},
+    "requirements": ["lead/50", "titanium/30"],
+    "category": "production",
+    "research": "cryofluid-mixer",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

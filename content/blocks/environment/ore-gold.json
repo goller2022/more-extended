@@ -1,0 +1,8 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "gold",
+    "mapColor": "#f3e979",
+    "oreDefault": true,
+    "oreThreshold": 0.7,
+    "oreScale": 28
+}

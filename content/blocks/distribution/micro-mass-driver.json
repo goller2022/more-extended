@@ -1,0 +1,16 @@
+{
+    "type": "MassDriver",
+    "size": 1,
+    "health": 250,
+    "itemCapacity": 40,
+    "reload": 66,
+    "range": 146,
+    "consumes": {
+        "power": 0.58
+    },
+    "category": "distribution",
+    "requirements": ["titanium/35", "silicon/25", "lead/15"],
+    "research": "mass-driver",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

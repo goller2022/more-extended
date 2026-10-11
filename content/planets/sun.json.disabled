@@ -1,0 +1,23 @@
+{
+    "name": "sun",
+    "accessible": true,
+    "alwaysUnlocked": true,
+    "hasAtmosphere": true,
+    "atmosphereColor": "ff963840",
+    "iconColor": "ff9638",
+    "defaultEnv": 300,
+    "rules": {
+        "planet": "sun",
+        "coreDestroyClear": true,
+        "showSpawns": true
+    },
+    "defaultCore": "core-shard",
+    "startSector": 0,
+    //"sectorSize": 3.75,
+    "clearSectorOnLose": true,
+    "allowLaunchSchematics": true,
+    "allowLaunchLoadout": true,
+    "launchCapacityMultiplier": 0.5,
+    "prebuildBase": true,
+    "generator": "serpulo"
+}

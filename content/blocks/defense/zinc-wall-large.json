@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "health": 1880,
+    "size": 2,
+    "requirements": [{ "item": "zinc", "amount": 24 }],
+    "category": "defense",
+    "research": "zinc-wall",
+    "absorbLasers": false,
+    "chanceDeflect": 0,
+    "researchCostMultiplier": 1,
+    "canOverdrive": false
+}

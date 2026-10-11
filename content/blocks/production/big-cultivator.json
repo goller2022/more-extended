@@ -1,0 +1,34 @@
+{
+    "type": "AttributeCrafter",
+    "size": 3,
+    "outputItem": "spore-pod/2",
+    "craftTime": 100,
+    "hasLiquids": true,
+    "hasPower": true,
+    "hasItems": true,
+    "liquidCapacity": 120,
+    "craftEffect": "none",
+    "envRequired": 8,
+    "attribute": "spores",
+    "ambientSound": "loopCultivator",
+    "ambientSoundVolume": 0.075,
+    "legacyReadWarmup": true,
+    "drawer": [
+        { "type": "DrawRegion", "suffix": "-bottom" },
+        { "type": "DrawLiquidTile", "drawLiquid": "water" },
+        { "type": "DrawDefault" },
+        { "type": "DrawCultivator" },
+        { "type": "DrawRegion", "suffix": "-top" }
+    ],
+    "maxBoost": 2,
+    "consumes": {
+        "power": 2,
+        "liquid": { "liquid": "water", "amount": 0.15 },
+        "item": "spore-pod"
+    },
+    "category": "production",
+    "requirements": ["copper/50", "lead/50", "silicon/20"],
+    "research": "cultivator",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

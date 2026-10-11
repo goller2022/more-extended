@@ -1,0 +1,22 @@
+{
+    "type": "ConsumeGenerator",
+    //"name": "石油发电机",
+    //"description": "燃烧石油发电。",
+    "health": 360,
+    "size": 3,
+    "requirements": ["copper/200", "lead/200", "silicon/100"],
+    "category": "power",
+    "research": "differential-generator",
+    "researchCostMultiplier": 1,
+    "hasLiquids": true,
+    "hasItems": true,
+    "generateEffect": "generatespark",
+    "itemDuration": 60,
+    "consumes": {
+        "liquid": {
+            "liquid": "oil",
+            "amount": 0.1
+        }
+    },
+    "powerProduction": 10
+}

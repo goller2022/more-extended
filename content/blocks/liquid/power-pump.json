@@ -1,0 +1,15 @@
+{
+    "type": "Pump",
+    "size": 2,
+    "pumpAmount": 0.5,
+    "liquidCapacity": 160,
+    "hasPower": true,
+    "consumes": {
+        "power": 0.3
+    },
+    "requirements": ["beryllium/70", "silicon/20", "tungsten/35", "thorium/50"],
+    "category": "liquid",
+    "research": "reinforced-pump",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

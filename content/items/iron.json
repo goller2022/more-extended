@@ -1,0 +1,13 @@
+{
+    //"name": "铁", //名称
+    //"description": "更好的材料。", //用途
+    //"details": "在铜、铅之后出现的材料，更硬。", //故事
+    "color": "#dddddd", //颜色(十六进制)
+    "cost": 1, //成本
+    "hardness": 1, //硬度
+    "explosiveness": 0, //爆炸性(1=100%)
+    "flammability": 0, //燃性性(1=100%)
+    "radioactivity": 0, //放射性(1=100%)
+    "charge": 0.5, //放电性(1=100%)
+    "research": "core-shard" //解锁研究
+}

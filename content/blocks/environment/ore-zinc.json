@@ -1,0 +1,8 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "zinc",
+    "mapColor": "#b9e9c1",
+    "oreDefault": true,
+    "oreThreshold": 0.7,
+    "oreScale": 28
+}

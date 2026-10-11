@@ -1,0 +1,78 @@
+{
+    "localizedName": "陨石", //星球的本地化名称
+    "alwaysUnlocked": true, //是否始终解锁
+    "defaultCore": "core-shard", //默认核心类型
+    "parent": "serpulo", //父级系统
+    "solarSystem": "sun", //所属父级系统
+    "launchCandidates": [], //可发射候选列表（空表示无）
+    "mesh": [
+        //蓝
+        {
+            "type": "NoiseMesh", //网格类型：噪声网格
+            "planet": "陨石", //所属星球
+            "divisions": 12, //网格分段数
+            "seed": 0, //随机种子（用于生成一致性地形）
+            "radius": 0.8, //半径（相对值）
+            "color1": "0000DD", //颜色开始，16进
+            "color2": "0000EE", //颜色结束，16进
+            "octaves": 0.4, //噪声八度数（影响地形复杂度）
+            "persistence": 0.3, //噪声持续性（影响地形平滑度）
+            "scale": 0.2, //缩放比例（影响地形细节大小）
+        },
+    ],
+    "cloudMesh": [
+        {
+            "type": "HexSkyMesh", //网格类型：六边形天空网格
+            "planet": "陨石", //所属星球
+            "speed": 0.7, //速度
+            "radius": 0.1, //半经
+            "divisions": 6, //精细程度，数字越大网格越小
+            "color": "FFFFFF", //颜色，16进
+            "octaves": 1, //八度，影响网格密度越大越稀疏
+            "scl": 1, //噪声的缩放比例
+            "persistence": 0.2, //持久性，影响网格空隙，越大越稀疏
+            "thresh": 0.35, //脱粒，影响网格密度越大越密集
+        },
+    ],
+    "generator": {
+        "octaves": 4, //噪声八度数
+        "persistence": 0.9, //噪声持续性
+        "scale": 69, //缩放比例（影响地形整体大小）
+        "mag": 0.721, // 幅度（影响地形高度变化）
+        "thresh": 1.18, //阈值（可能用于地形分类）
+        "min": 100, //最小值（可能用于资源分布）
+        "max": 100, // 最大值（可能用于资源分布）
+        "radMin": 222, //最小半径（可能用于区域生成）
+        "radMax": 666, //最大半径（可能用于区域生成）
+        "iceChance": 0.5, //冰出现的概率
+        "carbonChance": 0.3, //碳出现的概率
+        "berylChance": 0, //绿柱石出现的概率（0表示不出现）
+        "ferricChance": 0.2, //铁出现的概率
+    },
+    //星球轨道和显示配置
+    "orbitRadius": 75, //轨道半径
+    "sectorSize": 1, //区块大小
+    "allowLaunchSchematics": true, //是否允许发射蓝图
+    "allowLaunchToNumbered": true, //是否允许发射到编号位置(数字区块)
+    "allowLaunchLoadout": true, //是否允许发射装载
+    "allowSectorInvasion": true, //是否允许区块入侵
+    "startSector": 0, //起始区块
+    "orbitSpacing": 2, //轨道间距
+    "radius": 1, //星球半径（相对值）
+    "minZoom": 1, //最小缩放级别
+    "drawOrbit": true, //是否绘制轨道
+    "atmosphereRadIn": 0, //大气层内半径
+    "atmosphereRadOut": 0.1, //大气层外半径
+    "accessible": true, //是否可访问
+    "updateLighting": true, //是否更新光照
+    "sectorSeed": 0, //区块随机种子
+    "bloom": true, //是否启用辉光效果
+    "visible": true, //是否可见
+    "atmosphereColor": "EAFFFFFF", //大气层颜色，ARGB
+    "iconColor": "00FFFF", // 图标颜色，16进
+    "hasAtmosphere": true, //是否有大气层
+    "allowWaveSimulation": false, //是否允许波浪模拟
+    "clearSectorOnLose": false, //失败时是否清除区块
+    "allowWaves": true, //是否允许波浪
+    "prebuildBase": false, //是否预建基地
+}

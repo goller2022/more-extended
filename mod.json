@@ -1,0 +1,13 @@
+{
+    "name": "more-extended",
+    "displayName": "更多扩展 More Extended",
+    "author": "throw_new_error",
+    "version": "1.0",
+    "description": "给Mindustry添加了更多内容. \nAdds more content to Mindustry.",
+    "minGameVersion": "158",
+    "dependencies": [
+        /*"multicrafter"*/
+    ],
+    "hidden": false,
+    "scripts": ["scripts/main.js"]
+}

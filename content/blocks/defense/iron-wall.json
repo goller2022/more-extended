@@ -1,0 +1,18 @@
+{
+    //"name": "铁墙",
+    //"description": "保护己方建筑，挡下敌方炮弹。", //介绍
+    "type": "Wall", //类型
+    "health": /*500*/ 450, //血量
+    "size": 1, //边长
+    "requirements": [{ "item": "iron", "amount": 6 }], //建造所需
+    "outputRouter": false,
+    "hasPower": true,
+    "consumesPower": false,
+    "conductivePower": true,
+    "category": "defense", //不能改
+    "research": "core-shard", //科技树位置
+    "absorbLasers": true, //吸收激光(true是，false否)
+    "chanceDeflect": 0.8, //反弹率
+    "researchCostMultiplier": 1, // 研究成本乘数
+    "canOverdrive": false
+}

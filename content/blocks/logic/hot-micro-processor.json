@@ -1,0 +1,13 @@
+{
+    "type": "LogicBlock",
+    //"name": "耐热微型处理器",
+    //"description": "循环运行一系列逻辑指令，可用于控制单位和建筑物。更加耐热，可以在高温高压环境下使用。",
+    "health": 40,
+    "instructionsPerTick": 2,
+    "size": 1,
+    "requirements": ["beryllium/90", "graphite/50", "silicon/50"],
+    "category": "logic",
+    "research": "reinforced-message",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

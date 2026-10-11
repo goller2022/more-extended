@@ -1,0 +1,6 @@
+{
+    //"type": "SandFloor",
+    "itemDrop": "ice",
+    "playerUnmineable": true
+    //"hardness": 1
+}

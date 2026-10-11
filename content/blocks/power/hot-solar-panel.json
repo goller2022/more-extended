@@ -1,0 +1,11 @@
+{
+    "type": "SolarGenerator",
+    "health": 40,
+    "size": 1,
+    "powerProduction": 0.24,
+    "requirements": ["graphite/10", "silicon/8"],
+    "category": "power",
+    "research": "hot-power-node",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

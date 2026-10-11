@@ -1,0 +1,17 @@
+{
+    "type": "Battery",
+    //"name": "耐热大型电池",
+    //"description": "储存电网多余电力，并在电网供电不足时放电。比普通电池容量更高。更加耐热，可以在高温高压环境下使用。",
+    "health": 360,
+    "size": 3,
+    "hasPower": true,
+    "consumes": {
+        "powerBuffered": 50000
+    },
+    "baseExplosiveness": 5,
+    "requirements": ["tungsten/50", "graphite/20", "silicon/30"],
+    "category": "power",
+    "research": "hot-battery",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

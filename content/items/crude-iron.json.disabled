@@ -1,0 +1,13 @@
+{
+    //"name": "粗铁",
+    //"description": "未冶炼的铁。",
+    //"details": "未冶炼的铁，可直接从地上挖掘。",
+    "color": "#dddddd",
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0.1,
+    "research": "copper"
+}

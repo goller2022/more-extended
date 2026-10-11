@@ -1,0 +1,16 @@
+{
+    "type": "Wall",
+    "health": 1800 /*1500*/,
+    "size": 2,
+    "requirements": [{ "item": "iron", "amount": 24 }],
+    "outputRouter": false,
+    "hasPower": true,
+    "consumesPower": false,
+    "conductivePower": true,
+    "category": "defense",
+    "research": "iron-wall",
+    "absorbLasers": true,
+    "chanceDeflect": 0.9,
+    "researchCostMultiplier": 1,
+    "canOverdrive": false
+}

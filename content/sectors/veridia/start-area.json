@@ -1,0 +1,15 @@
+{
+    "planet": "veridia",
+    "sector": 170,
+    "difficulty": 1,
+    "research": {
+        "parent": "core-shard",
+        "objectives": ["core-shard"]
+    },
+    "overrideLaunchDefaults": true,
+    "captureWave": 10,
+    "addStartingItems": true,
+    "isLastSector": false,
+    "allowLaunchSchematics": false,
+    "allowLaunchLoadout": false
+}

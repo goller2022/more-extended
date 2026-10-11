@@ -1,0 +1,10 @@
+{
+    "color": "#000000",
+    "cost": 1,
+    "hardness": 5,
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "research": "slag"
+}

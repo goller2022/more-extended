@@ -1,0 +1,20 @@
+{
+    "type": "SolidPump",
+    //"name": "抽油机",
+    //"description": "从地下提取石油，适用于附近没有地表石油的情况。",
+    "result": "oil",
+    "pumpAmount": 0.11,
+    "size": 2,
+    "liquidCapacity": 40,
+    "rotateSpeed": 1.4,
+    "attribute": "oil",
+    "envRequired": 64,
+    "consumes": {
+        "power": 1.5
+    },
+    "requirements": ["metaglass/30", "plastanium/30", "copper/30", "lead/30"],
+    "category": "production",
+    "research": "oil-extractor",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

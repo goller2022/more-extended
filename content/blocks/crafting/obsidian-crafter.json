@@ -1,0 +1,39 @@
+{
+    "type": "GenericCrafter",
+    "health": 160,
+    "itemCapacity": 30,
+    "outputItem": "obsidian/1",
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 20,
+    "craftEffect": "none",
+    "updateEffect": "none",
+    "drawer": [
+        { "type": "DrawRegion", "suffix": "-bottom" },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "water"
+        },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "slag",
+            "drawLiquidLight": true
+        },
+        { "type": "DrawDefault" }
+    ],
+    "lightLiquid": "slag",
+    "consumes": {
+        "power": 1,
+        "liquids": [
+            { "liquid": "water", "amount": 0.01 },
+            { "liquid": "slag", "amount": 0.01 }
+        ]
+    },
+    "requirements": ["beryllium/50", "tungsten/30"],
+    "category": "crafting",
+    "research": "slag-incinerator",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

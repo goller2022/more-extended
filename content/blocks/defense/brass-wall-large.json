@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "health": 3480,
+    "size": 2,
+    "requirements": [{ "item": "brass", "amount": 24 }],
+    "category": "defense",
+    "research": "brass-wall",
+    "absorbLasers": false,
+    "chanceDeflect": 0.1,
+    "researchCostMultiplier": 1,
+    "canOverdrive": false
+}

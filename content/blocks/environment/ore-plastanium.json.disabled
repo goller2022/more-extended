@@ -1,0 +1,8 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "plastanium",
+    "mapColor": "#cbd97f",
+    "oreDefault": true,
+    "oreThreshold": 0.7,
+    "oreScale": 28
+}

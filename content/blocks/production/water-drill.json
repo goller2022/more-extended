@@ -1,0 +1,27 @@
+{
+    "type": "Fracker",
+    //"name": "水钻井",
+    //"description": "输入沙子和电力抽取地下水。",
+    "health": 500,
+    "size": 3,
+    "liquidCapacity": 60,
+    "itemCapacity": 30,
+    "hasItems": true,
+    "hasLiquids": true,
+    "hasPower": true,
+    "result": "water",
+    "baseEfficiency": 1,
+    "attribute": "water",
+    "itemUseTime": 60,
+    "consumes": {
+        "power": 1,
+        "item": "sand"
+    },
+    "requirements": ["copper/100", "lead/70", "graphite/20"],
+    "updateEffect": "pulverize",
+    "updateEffectChance": 0.05,
+    "pumpAmount": 2,
+    "category": "production",
+    "research": "water-extractor",
+    "researchCostMultiplier": 1
+}

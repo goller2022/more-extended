@@ -1,0 +1,8 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "silicon",
+    "mapColor": "#53565c",
+    "oreDefault": true,
+    "oreThreshold": 0.7,
+    "oreScale": 28
+}

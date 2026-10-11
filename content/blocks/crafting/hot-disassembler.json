@@ -1,0 +1,35 @@
+{
+    "type": "Separator",
+    //"name": "耐热解离机",
+    //"description": "以低效率将矿渣液分离成微量的外来矿物成分。能产生钍，需要使用水冷却。更加耐热，可以在高温高压环境下使用。",
+    "size": 3,
+    "health": 465,
+    "hasPower": true,
+    "results": ["sand/2", "graphite/1", "tungsten/1", "thorium/1"],
+    "craftTime": 15,
+    "itemCapacity": 20,
+    "consumes": {
+        "power": 4,
+        "liquids": [
+            {
+                "liquid": "slag",
+                "amount": 0.12
+            },
+            {
+                "liquid": "water",
+                "amount": 0.1
+            }
+        ]
+    },
+    "drawer": [
+        { "type": "DrawRegion", "suffix": "-bottom" },
+        { "type": "DrawLiquidTile", "drawLiquid": "slag" },
+        { "type": "DrawRegion", "suffix": "-spinner", "rotateSpeed": 3 },
+        { "type": "DrawDefault" }
+    ],
+    "requirements": ["tungsten/100", "thorium/80", "silicon/150", "oxide/40"],
+    "category": "crafting",
+    "research": "hot-separator",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

@@ -1,0 +1,6 @@
+{
+    "type": "Floor",
+    "itemDrop": "clay",
+    "mapColor": "#b0bac0",
+    "playerUnmineable": true
+}

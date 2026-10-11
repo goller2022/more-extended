@@ -1,0 +1,20 @@
+{
+    "type": "LogicBlock",
+    "size": 2,
+    "instructionsPerTick": 20,
+    "range": 330,
+    "consumes": {
+        "power": 2,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.08,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "requirements": ["lead/350", "silicon/100", "graphite/70", "thorium/60"],
+    "category": "logic",
+    "research": "logic-processor",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

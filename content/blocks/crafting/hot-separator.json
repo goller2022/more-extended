@@ -1,0 +1,35 @@
+{
+    "type": "Separator",
+    //"name": "耐热分离机",
+    //"description": "将矿渣液分离成矿物成分。需要使用水冷却。更加耐热，可以在高温高压环境下使用。",
+    "size": 2,
+    "health": 160,
+    "hasPower": true,
+    "results": ["beryllium/5", "graphite/3", "tungsten/2"],
+    "craftTime": 35,
+    "itemCapacity": 20,
+    "consumes": {
+        "power": 1.1,
+        "liquids": [
+            {
+                "liquid": "slag",
+                "amount": 0.06
+            },
+            {
+                "liquid": "water",
+                "amount": 0.01
+            }
+        ]
+    },
+    "drawer": [
+        { "type": "DrawRegion", "suffix": "-bottom" },
+        { "type": "DrawLiquidTile", "drawLiquid": "slag" },
+        { "type": "DrawRegion", "suffix": "-spinner", "rotateSpeed": 3 },
+        { "type": "DrawDefault" }
+    ],
+    "requirements": ["beryllium/30", "tungsten/25"],
+    "category": "crafting",
+    "research": "slag-incinerator",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

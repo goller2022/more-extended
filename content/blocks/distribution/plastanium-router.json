@@ -1,0 +1,12 @@
+{
+    "type": "StackRouter",
+    "health": 130,
+    "speed": 6,
+    "solid": false,
+    "underBullets": true,
+    "requirements": ["plastanium/5", "graphite/1"],
+    "category": "distribution",
+    "research": "plastanium-conveyor",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

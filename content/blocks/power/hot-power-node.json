@@ -1,0 +1,15 @@
+{
+    "type": "PowerNode",
+    //"name": "耐热电力节点",
+    //"description": "向连接的其他节点传输电力，也能从相邻的建筑接收电力或向其供电。更加耐热，可以在高温高压环境下使用。",
+    "size": 1,
+    "health": 40,
+    "hasPower": true,
+    "laserRange": 6,
+    "maxNodes": 10,
+    "requirements": ["beryllium/2", "graphite/6"],
+    "category": "power",
+    "research": "beam-node",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

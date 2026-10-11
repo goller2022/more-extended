@@ -1,0 +1,17 @@
+{
+    "type": "Battery",
+    //"name": "耐热电池",
+    //"description": "储存电网多余电力，并在电网供电不足时放电。更加耐热，可以在高温高压环境下使用。",
+    "size": 1,
+    "health": 40,
+    "hasPower": true,
+    "consumes": {
+        "powerBuffered": 4000
+    },
+    "baseExplosiveness": 1,
+    "requirements": ["beryllium/5", "graphite/20"],
+    "category": "power",
+    "research": "hot-power-node",
+    "canOverdrive": true,
+    "researchCostMultiplier": 1
+}

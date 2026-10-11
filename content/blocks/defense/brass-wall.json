@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "health": 870,
+    "size": 1,
+    "requirements": [{ "item": "brass", "amount": 6 }],
+    "category": "defense",
+    "research": "zinc-wall",
+    "absorbLasers": false,
+    "chanceDeflect": 0.1,
+    "researchCostMultiplier": 1,
+    "canOverdrive": false
+}
